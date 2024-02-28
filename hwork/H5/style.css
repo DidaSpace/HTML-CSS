@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Gilroy;
+
+
+}
+
+.center {
+    padding-left: calc(50% - 573px);
+    padding-right: calc(50% - 573px);
+}
+
+.header {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header__title {
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-weight:700 ;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+    padding-left: 14px;
+}
+
+.orange {
+    font-weight:600 ;
+    color: #F25822;
+}
+
+.menu__item {
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 30px;
+
+}
+
+
+.top__content {
+    margin-top: 84px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.top__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info__title {
+    color: #000;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.info__subtitle {
+    margin-right: 56px;
+    color: #888888;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.top__buttons {
+    display: flex;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+
+}
+
+.buttons__text {
+    padding: 15px 35px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px #F2582233;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.buttons__watch {
+    background: #ffffff;
+    border: none;
+    padding-left: 72px;
+    color: #AAAAAA;
+    text-align: right;
+}
+
+
+
+.top__logos {
+    margin-top: 162px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.features {
+    padding-top: 140px;
+    padding-bottom: 125px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 35px;
+}
+
+
+
+.features__item {
+    padding: 5px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 25px;
+    background: #ffffff;
+
+}
+
+.features__icon {
+    border-radius: 15px;
+    width: 70px;
+    height: 70px;
+}
+
+.icon {
+    margin: 22px;
+}
+
+.icon1 {
+
+    background: #F2582240;
+
+}
+
+.icon2 {
+    background: #14921147;
+}
+
+.icon3 {
+    background: #FFCD1D3D;
+}
+
+.features__title {
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-weight:700 ;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.features__text {
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #666666;
+
+}
+
+.features__button {
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-weight:700 ;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    border: none;
+    background: none;
+}
+
+.item2 {
+
+    box-shadow: 15px 25px 56px 6px #0000000F;
+}
+
+.services {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background: #FAFAFA;
+
+}
+
+
+
+
+.title {
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-weight:700 ;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.subtitle {
+    margin: 18px 250px 0px;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.services__info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.services__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.item__title {
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-weight:700 ;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.item__text {
+    color: #AAAAAA;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0 30px;
+    opacity: 0.7;
+
+}

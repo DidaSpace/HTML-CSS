@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Gilroy;
+
+
+}
+
+.center {
+    padding-left: calc(50% - 573px);
+    padding-right: calc(50% - 573px);
+}
+
+.header {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__title {
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+    padding-left: 14px;
+}
+
+.orange {
+
+    color: #F25822;
+}
+
+.menu__item {
+    color: black;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 30px;
+}
+
+
+.top__content {
+    margin-top: 84px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.top__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    color: #000;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.subtitle {
+    margin-right: 56px;
+    color: #888888;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.top__buttons {
+    display: flex;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0em;
+
+}
+
+.buttons__text {
+    padding: 15px 35px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px #F2582233;
+    color: #fff;
+    border-radius: 50px;
+}
+
+.buttons__watch {
+    background: #ffffff;
+    border: none;
+    padding-left: 72px;
+    color: #AAAAAA;
+    text-align: right;
+}
+
+
+
+.top__logos {
+    margin-top: 162px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
